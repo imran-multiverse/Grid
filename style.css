@@ -1,0 +1,57 @@
+body {
+    margin: 0px;
+    height: 100vh;
+    display:grid;
+    grid-template-rows: auto 1fr auto;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+}
+
+header {
+    height:50px;
+    background-color: blueviolet;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+main {
+    display: grid;
+    grid-template-columns: auto 1fr auto;
+    
+
+}
+
+footer {
+    height:50px;
+    background-color: blueviolet;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+nav{
+    width:200px;
+    background-color:brown;
+}
+
+aside{
+    width:200px;
+    background-color:brown;
+}
+
+article{
+    padding:10px;
+}
+
+.button-item{
+    background-color: black;
+    color: white;
+    padding: 10px;
+    border: solid;
+    border-color: white;
+}
+
+
